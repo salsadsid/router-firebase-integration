@@ -8,7 +8,7 @@ const About = () => {
     const [user] = useAuthState(auth)
     return (
         <div>
-            <h1>The name is display using react-firebase-hooks</h1>
+            <h1>The name is display using react-firebase-hooks. CHILL</h1>
             <p>{user?.displayName ? user.displayName : "Please Login or register"}</p>
         </div>
     );

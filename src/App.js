@@ -8,6 +8,7 @@ import Orders from './components/Orders/Orders';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Products from './components/Products/Products';
 import About from './components/About/About';
+import Vip from './components/Vip/Vip';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/products' element={<Products></Products>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/vip' element={<Vip></Vip>}></Route>
       </Routes>
     </div>
   );
